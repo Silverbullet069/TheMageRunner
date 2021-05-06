@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1620265444 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.cpp
+	"Engine.h"
+	"TextureManager.h"
+	"Warrior.h"
+	"Input.h"
+	"Timer.h"
+
+1620216697 c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.h
+	"SDL.h"
+	"SDL_image.h"
+
+1620267085 source:c:\users\hacki\desktop\masterpiece\themagerunner\main.cpp
+	"Engine.h"
+	"Timer.h"
+
+1620191666 c:\users\hacki\desktop\masterpiece\themagerunner\engine2.h
+	"SDL.h"
+	"SDL_image.h"
+
+1620204302 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+
+1620205767 c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.h
+	"SDL.h"
+	<string>
+	<map>
+
+1620261422 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.cpp
+	"Warrior.h"
+	"TextureManager.h"
+	"SDL.h"
+	"Input.h"
+
+1620265510 c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.h
+	"Character.h"
+	"Animation.h"
+	"RigidBody.h"
+
+1620202990 c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1620206045 c:\users\hacki\desktop\masterpiece\themagerunner\src\object\gameobject.h
+	"IObject.h"
+	"Transform.h"
+	"SDL.h"
+
+1620205609 c:\users\hacki\desktop\masterpiece\themagerunner\src\object\iobject.h
+
+1620211376 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\transform.h
+	"Vector2D.h"
+
+1620208396 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\vector2d.h
+	<iostream>
+
+1620207935 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\animation.h
+	"SDL.h"
+	<string>
+
+1620207747 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1620262343 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\rigidbody.h
+	"Vector2D.h"
+
+1620214418 c:\users\hacki\desktop\masterpiece\themagerunner\src\inputs\input.h
+	"SDL.h"
+
+1620214826 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\inputs\input.cpp
+	"Input.h"
+	"Engine.h"
+
+1620267270 c:\users\hacki\desktop\masterpiece\themagerunner\src\timer\timer.h
+
+1620267252 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\timer\timer.cpp
+	"Timer.h"
+	"SDL.h"
+
