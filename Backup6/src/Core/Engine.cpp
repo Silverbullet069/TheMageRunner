@@ -36,9 +36,13 @@ bool Engine::Init()
     }
 
     //Load player
-    TextureManager::GetInstance()->Load("player_idle", "resource/Idle.png");
-    TextureManager::GetInstance()->Load("player_run", "resource/Run.png");
-    TextureManager::GetInstance()->Load("player_jump", "resource/Jump.png");
+    TextureManager::GetInstance()->Load("player_idle", "resource/char/wizard/Idle.png");
+    TextureManager::GetInstance()->Load("player_run", "resource/char/wizard/Run.png");
+    TextureManager::GetInstance()->Load("player_jump", "resource/char/wizard/Jump.png");
+    TextureManager::GetInstance()->Load("player_fall", "resource/char/wizard/Fall.png");
+    TextureManager::GetInstance()->Load("player_attack1", "resource/char/wizard/Attack1.png");
+    TextureManager::GetInstance()->Load("player_attack2", "resource/char/wizard/Attack2.png");
+    TextureManager::GetInstance()->Load("player_crouch", "resource/char/wizard/Crouch.png");
 
     //Load background
     TextureManager::GetInstance()->Load("bkg3", "resource/Maps/bkg3.png");

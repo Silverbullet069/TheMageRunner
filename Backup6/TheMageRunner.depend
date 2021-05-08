@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1620474719 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.cpp
+1620488124 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.cpp
 	"Engine.h"
 	"TextureManager.h"
 	"Warrior.h"
@@ -22,17 +22,18 @@
 	"SDL.h"
 	"SDL_image.h"
 
-1620450684 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.cpp
+1620490263 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.cpp
 	"TextureManager.h"
 	"Engine.h"
 	"Camera.h"
 
-1620450705 c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.h
+1620490283 c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.h
 	"SDL.h"
+	"tinyxml.h"
 	<string>
 	<map>
 
-1620474990 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.cpp
+1620489054 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.cpp
 	"Warrior.h"
 	"TextureManager.h"
 	"SDL.h"
@@ -41,7 +42,7 @@
 	"CollisionHandler.h"
 	"Config.h"
 
-1620474656 c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.h
+1620488227 c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.h
 	"Character.h"
 	"Animation.h"
 	"RigidBody.h"
@@ -66,21 +67,21 @@
 1620208396 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\vector2d.h
 	<iostream>
 
-1620465633 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\animation.h
+1620484242 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\animation.h
 	"SDL.h"
 	<string>
 
-1620268479 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\animation.cpp
+1620484293 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\animation.cpp
 	"Animation.h"
 	"TextureManager.h"
 
 1620268980 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\rigidbody.h
 	"Vector2D.h"
 
-1620214418 c:\users\hacki\desktop\masterpiece\themagerunner\src\inputs\input.h
+1620487168 c:\users\hacki\desktop\masterpiece\themagerunner\src\inputs\input.h
 	"SDL.h"
 
-1620274912 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\inputs\input.cpp
+1620487187 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\inputs\input.cpp
 	"Input.h"
 	"Engine.h"
 
@@ -184,5 +185,5 @@
 
 1620471866 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\collider.h
 
-1620474876 c:\users\hacki\desktop\masterpiece\themagerunner\src\config\config.h
+1620489008 c:\users\hacki\desktop\masterpiece\themagerunner\src\config\config.h
 

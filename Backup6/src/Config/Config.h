@@ -13,20 +13,28 @@ const int PLAYER_WIDTH_FRAME = 500;
 const int PLAYER_HEIGHT_FRAME = 500;
 
 const float PLAYER_SPEED = 0.8f;
-const int PLAYER_SPRITE_ROW = 1;
-const int PLAYER_SPRITE_JUMP_FALL_ROW = 2;
-const int PLAYER_SPRITE_FRAME = 8;
-const int PLAYER_ANIMATION_SPEED = 100;
+
+const int PLAYER_SPRITE_COMMON_ROW   = 0;
+const int PLAYER_SPRITE_COMMON_FRAME = 8;
+const int PLAYER_SPRITE_JUMP_FRAME   = 2;
+const int PLAYER_SPRITE_FALL_FRAME   = 2;
+
+const int PLAYER_ANIME_IDLE_SPEED   = 100;
+const int PLAYER_ANIME_RUN_SPEED    = 100;
+const int PLAYER_ANIME_CROUCH_SPEED = 200;
+const int PLAYER_ANIME_JUMP_SPEED   = 200;
+const int PLAYER_ANIME_FALL_SPEED   = 300;
+const int PLAYER_ANIME_ATTACK_SPEED = 100;
 
 const float PLAYER_RIGID_BODY_GRAVITY_ACCEL = 3.0f;
 const float PLAYER_JUMP_TIME = 15.0f;
 const float PLAYER_JUMP_FORCE = 10.0f;
 const int PLAYER_RUN_FORCE = 10;
 
-const int PLAYER_BUFFER_X_POS = -200;
-const int PLAYER_BUFFER_Y_POS = -150;
-const int PLAYER_BUFFER_W_POS = 360;
-const int PLAYER_BUFFER_H_POS = 320;
+const int PLAYER_BUFFER_X_POS = -220;
+const int PLAYER_BUFFER_Y_POS = -220;
+const int PLAYER_BUFFER_W_POS = 420;
+const int PLAYER_BUFFER_H_POS = 400;
 
 //Background
 const int BKG_MAP_START_X_POS = 0;

@@ -25,6 +25,29 @@ bool TextureManager::Load(std::string id, std::string file_name)
     return true;
 }
 
+bool TextureManager::ParseTextures(std::string source)
+{
+    TiXmlDocument xml;
+    xml.LoadFile(source);
+    if(xml.Error())
+    {
+        std::cerr<< "Failed to load: " << source << std::endl;
+    }
+
+    TiXmlElement* root = xml.RootElement();
+    for(TiXmlElement* e = root->FirstChildElement() ; e != nullptr ; e = e->NextSiblingElement())
+    {
+        if(e->Value() == std::string("texture"))
+        {
+            std::string id = e->Attribute("id");
+            std::string src = e->Attribute("source");
+            Load(id, src);
+        }
+    }
+
+    return true;
+}
+
 void TextureManager::Draw(std::string id, int x, int y, int width, int height, float speedRatio, SDL_RendererFlip flip)
 {
     SDL_Rect srcRect = {0, 0, width, height};
@@ -39,7 +62,7 @@ void TextureManager::Draw(std::string id, int x, int y, int width, int height, f
 
 void TextureManager::DrawFrame(std::string id, int x, int y, int width, int height, int row, int frame, SDL_RendererFlip flip)
 {
-    SDL_Rect srcRect = {width*frame, height*(row-1), width, height};
+    SDL_Rect srcRect = {width*frame, height*row, width, height};
 
     Vector2D cam = Camera::GetInstance()->GetPosition();
     SDL_Rect desRect = {x - cam.X, y - cam.Y, width, height}; /** GIAI THICH = GIAO' CU. TRUC. QUAN **/

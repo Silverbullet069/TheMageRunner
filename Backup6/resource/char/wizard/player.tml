@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<textures>
+	<texture id="player_idle" source="resource/char/wizard/Idle.png"/>
+	<texture id="player_run" source="resource/char/wizard/Run.png"/>
+	<texture id="player_jump" source="resource/char/wizard/Jump.png"/>
+	<texture id="player_fall" source="resource/char/wizard/Fall.png"/>
+	<texture id="player_attack1" source="resource/char/wizard/Attack1.png"/>
+	<texture id="player_attack2" source="resource/char/wizard/Attack2.png"/>
+	<texture id="player_crouch" source="resource/char/wizard/Crouch.png"/>
+
+	<texture id="bkg3" source="resource/Maps/bkg3.png"/>
+	<texture id="bkg2" source="resource/Maps/bkg2.png"/>
+	<texture id="bkg1" source="resource/Maps/bkg1.png"/>
+
+</textures>
+
+
+

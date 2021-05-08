@@ -10,13 +10,12 @@ class Animation
     public:
 
     //Khong^ truyen` Props vi` cac' Entity khi su dung. Animation da~ duoc. truyen` = Props truoc' do'
-    //Sau do, cac Entity truyen` lai. props vao` Animation theo tung` gia' tri. 1.
+    //Sau do, cac Entity truyen` lai. props vao` Animation theo tung` gia' tri. mot^.
         Animation(){}
 
         void Update();
-        void DrawAnime(float x, float y, int spriteWidth, int spriteHeight);
-        void SetProps(std::string textureID, int spriteRow, int frameCount, int animateSpeed,
-                      SDL_RendererFlip flip = SDL_FLIP_NONE);
+        void DrawAnime(float x, float y, int spriteWidth, int spriteHeight, SDL_RendererFlip flip = SDL_FLIP_NONE);
+        void SetProps(std::string textureID, int spriteRow, int frameCount, int animateSpeed);
 
     private:
 
@@ -24,8 +23,7 @@ class Animation
         int m_SpriteCurrentFrame; //Frame index cua? nhan^ vat^. quan? ly' boi? ham` Update
         int m_AnimateSpeed; //Thoi gian ve~ animation giua 2 frame trong 1 action
         int m_FrameCount; //Tong? so frame/1 action cua? nhan^ vat^.
-        std::string m_TextureID;
-        SDL_RendererFlip m_Flip;
+        std::string m_TextureID; //ID dinh. danh ten^ cua? loai. hanh` dong^ cua? Entity
 };
 
 #endif // ANIMATION_H

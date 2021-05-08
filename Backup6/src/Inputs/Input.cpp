@@ -61,3 +61,27 @@ void Input::KeyDown()
     //Va flag tuong ung' cua? phim' vua` nhan' se~ duoc. gan' bang 1 trong array
     //m_KeyStates duoc gan' bang array~ SDL co' 255 ptu, 254 ptu = 0, 1 ptu = 1 va` do' la` phim' vua` nhan'
 }
+
+//Tra? ve` gia' tri. 1 hoac. -1 neu' phim' co' huong' tuong ung' duoc. bam^', hoac la` 0 neu' khong^ phai? nhung~ phim' nay`
+int Input::GetAxisKey(Axis axis)
+{
+    switch (axis)
+    {
+    case HORIZONTAL :
+        if(GetKeyDown(SDL_SCANCODE_D) || GetKeyDown(SDL_SCANCODE_RIGHT))
+            return 1;
+        if(GetKeyDown(SDL_SCANCODE_A) || GetKeyDown(SDL_SCANCODE_LEFT))
+            return -1;
+        break;
+
+    case VERTICAL :
+        if(GetKeyDown(SDL_SCANCODE_W) || GetKeyDown(SDL_SCANCODE_UP))
+            return 1;
+        if(GetKeyDown(SDL_SCANCODE_S) || GetKeyDown(SDL_SCANCODE_DOWN))
+            return -1;
+        break;
+
+    default :
+        return 0;
+    }
+}

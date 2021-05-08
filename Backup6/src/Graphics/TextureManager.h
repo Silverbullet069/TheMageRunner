@@ -2,6 +2,7 @@
 #define TEXTUREMANAGER_H
 
 #include "SDL.h"
+#include "tinyxml.h"
 #include <string>
 #include <map>
 
@@ -14,8 +15,10 @@ class TextureManager //System
             return s_Instance = (s_Instance != nullptr)? s_Instance : new TextureManager();
         }
 
-        //Khoi tao. cac' texture cua tung` object duoc. quan? ly' boi? m_TextureMap va` m_TexureID
+        //Khoi tao. texture cua Entity duoc. quan? ly' boi? m_TextureMap va` m_TextureID
         bool Load(std::string id, std::string file_name);
+
+        bool ParseTextures(std::string source);
         //Khong can^` dung` toi' texture cua object nao` thi` xoa' di va free bo^. nho'
         void Drop(std::string id);
         //Xoa' het' tat' ca? cac texture con` lai. trong m_TextureMap
