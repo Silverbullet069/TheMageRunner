@@ -1,0 +1,2 @@
+<tileset firstgid="1" name="cave_rock" tilewidth="128" tileheight="128" tilecount="49" columns="7">
+  <image source="rock_cave_128.png" width="896" height="896"/>
