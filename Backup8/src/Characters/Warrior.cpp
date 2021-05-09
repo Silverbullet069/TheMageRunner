@@ -1,10 +1,13 @@
 #include "Warrior.h"
+#include "Config.h"
 #include "TextureManager.h"
 #include "SDL.h"
 #include "Input.h"
 #include "Camera.h"
 #include "CollisionHandler.h"
-#include "Config.h"
+#include "ObjectFactory.h"
+
+static Registrar<Warrior> registrar("PLAYER");
 
 Warrior::Warrior(Properties* props) : Character(props)
 {
@@ -40,7 +43,7 @@ Warrior::Warrior(Properties* props) : Character(props)
     m_TextureID trong GameObject, da duoc. khoi? tao. trong Engine::Init()
     Set Props de? khoi? tao. truoc' chu' khong^ de^? lam` gi` ca?, Props that^. duoc. su? dung. trong AnimationState() **/
 
-    m_Animation = new SpriteAnimation(); //Thay the^' Animation
+    m_Animation = new SpriteAnimation(true); //Thay the^' Animation
     m_Animation->SetProps(m_TextureID, PLAYER_SPRITE_COMMON_ROW,
                                        PLAYER_SPRITE_COMMON_FRAME,
                                        PLAYER_ANIME_IDLE_SPEED);
@@ -51,17 +54,7 @@ void Warrior::Draw()
 {
     m_Animation->DrawAnime(m_Transform->X, m_Transform->Y, m_Width, m_Height, m_Flip); //SpriteAnimation
     //Lan` luot. la` toa. do^. cua? Entity sau khi update va` kich' thuoc' cua? Entity va` flag flip cua? GameObject
-
-    Vector2D cam = Camera::GetInstance()->GetPosition();
-    SDL_Rect box = m_Collider->GetBox();
-    /** GIAI THICH :
-    BOX ve~ theo hqc' cua? Entity, ma` Entity duoc. ve~ theo hqc' cua? Camera, luc' dau` Box theo hqc' rieng^ cua? no'
-    (hqc giong' TileLayer), nv cang` di, Box se~ cang` di chuyen? lech^ khoi? nv neu' nhu? khong^ tinh' toan' lai. Box
-    theo  theo hqc' cua? Camera **/
-    box.x -= cam.X;
-    box.y -= cam.Y;
-    //Ve~ BoxCollider bao quanh nhan^ vat^.
-    SDL_RenderDrawRect(Engine::GetInstance()->GetRenderer(), &box);
+    m_Collider->Draw();
 }
 
 void Warrior::AnimationState()

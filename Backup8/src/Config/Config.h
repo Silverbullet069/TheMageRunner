@@ -9,8 +9,8 @@ const int SCREEN_HEIGHT = 1536;
 //Player
 const float PLAYER_START_X_POS = 100.0f;
 const float PLAYER_START_Y_POS = 200.0f;
-const int PLAYER_WIDTH_FRAME = 500;
-const int PLAYER_HEIGHT_FRAME = 500;
+const int PLAYER_WIDTH_FRAME   = 500;
+const int PLAYER_HEIGHT_FRAME  = 500;
 
 const float PLAYER_SPEED = 0.8f;
 
@@ -35,6 +35,9 @@ const int PLAYER_BUFFER_X_POS = -220;
 const int PLAYER_BUFFER_Y_POS = -220;
 const int PLAYER_BUFFER_W_POS = 420;
 const int PLAYER_BUFFER_H_POS = 400;
+
+//Enemy
+const float ENEMY_RIGID_BODY_GRAVITY_ACCEL = 3.5f;
 
 //Background
 const int BKG_MAP_START_X_POS = 0;

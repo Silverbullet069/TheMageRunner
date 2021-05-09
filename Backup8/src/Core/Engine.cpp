@@ -2,15 +2,16 @@
 #include "Engine.h"
 #include "TextureManager.h"
 #include "Warrior.h"
+#include "Enemy.h"
 #include "Input.h"
 #include "Timer.h"
 #include "MapParser.h"
 #include "Camera.h"
 #include "Config.h"
+#include "ObjectFactory.h"
 
 //Vi` s_Instance la` bien' static nen^ phai? duoc. khoi? tao. truoc' khi lam` gi` do'
 Engine* Engine::s_Instance = nullptr;
-Warrior* player = nullptr;
 
 bool Engine::Init()
 {
@@ -35,49 +36,53 @@ bool Engine::Init()
         return false;
     }
 
-    TextureManager::GetInstance()->ParseTextures("resource/textures.tml");
-
-/**
-    //Load player
-    TextureManager::GetInstance()->Load("player_idle", "resource/char/wizard/Idle.png");
-    TextureManager::GetInstance()->Load("player_run", "resource/char/wizard/Run.png");
-    TextureManager::GetInstance()->Load("player_jump", "resource/char/wizard/Jump.png");
-    TextureManager::GetInstance()->Load("player_fall", "resource/char/wizard/Fall.png");
-    TextureManager::GetInstance()->Load("player_attack1", "resource/char/wizard/Attack1.png");
-    TextureManager::GetInstance()->Load("player_attack2", "resource/char/wizard/Attack2.png");
-    TextureManager::GetInstance()->Load("player_crouch", "resource/char/wizard/Crouch.png");
-
-    //Load background
-    TextureManager::GetInstance()->Load("bkg3", "resource/Maps/bkg3.png");
-    TextureManager::GetInstance()->Load("bkg2", "resource/Maps/bkg2.png");
-    TextureManager::GetInstance()->Load("bkg1", "resource/Maps/bkg1.png");
-**/
-    //Load map
     if(!MapParser::GetInstance()->Load())
     {
         SDL_Log("Failed to load map!");
         return false;
     }
+
+    //Load map
     m_LevelMap = MapParser::GetInstance()->GetMap("level1");
 
+    //Load textures, bao gom^` ca? player, enemy, background
+    TextureManager::GetInstance()->ParseTextures("resource/textures.tml");
+
+/**
+    //Init k su? dung. ObjectFactory
     //Init player
-    player = new Warrior(new Properties("player_idle", PLAYER_START_X_POS,
-                                                      PLAYER_START_Y_POS,
-                                                      PLAYER_WIDTH_FRAME,
-                                                      PLAYER_HEIGHT_FRAME,
-                                                      PLAYER_SPEED));
+    Warrior* player = new Warrior(new Properties("player_idle", 100, 200, 500, 500, 0.8));
+**/
+
+    //Init co' su? dung. ObjectFactory
+    Properties* props = new Properties("player_idle", 100, 200, 500, 500, 0.8);
+    GameObject* player = ObjectFactory::GetInstance()->CreateObject("PLAYER", props);
+
+    //Init enemy
+    Enemy* enemy = new Enemy(new Properties("slime_jump", 1000, 200, 250, 250, 0.3));
+
+    //Init vector GameObject*
+    m_GameObjects.push_back(player);
+    m_GameObjects.push_back(enemy);
 
     //Set camera nhan^. player lam` center Entity
     Camera::GetInstance()->SetTarget(player->GetOrigin());
-
     return m_IsRunning = true; //if not false, return true and set m_IsRunning = true
 }
 
 void Engine::Update()
 {
-    player->Update();
+    //Update game map
     m_LevelMap->Update();
+
+    //Update camera
     Camera::GetInstance()->Update();
+
+    //Update tung` GameObject*
+    for(unsigned int i = 0 ; i < m_GameObjects.size(); ++i)
+    {
+        m_GameObjects[i]->Update();
+    }
 }
 
 void Engine::Render()
@@ -85,7 +90,7 @@ void Engine::Render()
     SDL_SetRenderDrawColor(m_Renderer, 255, 255, 255, 255);
     SDL_RenderClear(m_Renderer);
 
-    /** LUU Y : THU' TU RENDER CUA? TUNG` ENTITY **/
+    //Render background
     TextureManager::GetInstance()->Draw("bkg3", BKG_MAP_START_X_POS,
                                                 BKG_MAP_START_Y_POS,
                                                 BKG_MAP_WIDTH,
@@ -103,9 +108,18 @@ void Engine::Render()
                                                 BKG_MAP_WIDTH,
                                                 BKG_MAP_HEIGHT,
                                                 BKG_LAYER_FIRST_SPEED);
-    m_LevelMap->Render();
-    player->Draw();
+    /** LUU Y : THU' TU RENDER CUA? TUNG` BACKGROUND **/
 
+    //Render game map
+    m_LevelMap->Render();
+
+    //Render tung` GameObject
+    for(unsigned int i = 0 ; i < m_GameObjects.size(); ++i)
+    {
+        m_GameObjects[i]->Draw();
+    }
+
+    //In toan` bo^. moi. thu' ra man` hinh`
     SDL_RenderPresent(m_Renderer);
 }
 
@@ -116,7 +130,14 @@ void Engine::Events()
 
 bool Engine::Clean()
 {
+    //Clean tung` GameObject*
+    for(unsigned int i = 0 ; i < m_GameObjects.size(); ++i)
+    {
+        m_GameObjects[i]->Clean();
+    }
+
     TextureManager::GetInstance()->Clean();
+    MapParser::GetInstance()->Clean();
     SDL_DestroyRenderer(m_Renderer);
     SDL_DestroyWindow(m_Window);
     IMG_Quit();

@@ -5,7 +5,8 @@
 #include "Animation.h"
 #include "SDL.h"
 
-//La` Component, khong^ phai? System
+//SpriteAnimation la` tao. animation tu` 1 ANH? duy nhat^', anh? nay` goi. la` sprite, sprite luu tru~ chuoi~
+//cac' frame trong 1 kieu^? hanh` dong^. cua? entity.
 class SpriteAnimation : public Animation
 {
     public:

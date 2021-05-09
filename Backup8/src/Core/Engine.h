@@ -2,9 +2,12 @@
 #ifndef ENGINE_H_
 #define ENGINE_H_
 
+#include <vector>
 #include "SDL.h"
 #include "SDL_image.h"
 #include "GameMap.h"
+#include "GameObject.h"
+#include "GameState.h"
 
 class Engine //System
 {
@@ -23,7 +26,12 @@ public:
     void Render(); //In hinh` anh? tuong ung' voi cac' gia' tri. dynamic
     void Events(); //Ham` nhan. input tu` chuot va` ban` phim'
 
+    void PopState(); //Pop state current dang chay.
+    void PushState(GameState* current); //Push state muon' chuyen? toi'
+    void ChangeState(GameState* target);
+
     inline bool IsRunning() {return m_IsRunning;} //Set flag Engine dang su? dung.
+    inline SDL_Window* GetWindow() { return m_Window; } //Lay' Window trong Engine ra de^? su? dung.
     inline SDL_Renderer* GetRenderer() { return m_Renderer; } //Lay' Renderer trong Engine ra de^? su? dung.
     //NOTE : TRONG 1 GAME CHI? SU? DUNG. 1 RENDERER LA` CUA? ENGINE.
     inline GameMap* GetMap() {return m_LevelMap;} //Lay^' GameMap trong Engine ra de^? su? dung.
@@ -39,6 +47,12 @@ private:
     //Doi' tuong. trong class Engine
     //khai bao' static de^? su? dung. truc. tiep', khong^ can` phai? tao. object
     static Engine* s_Instance;
+
+    //1 vector 1 chieu^`, luu tat' ca? cac' Entity
+    std::vector<GameObject*> m_GameObjects;
+
+    //1 vector 1 chieu^`, luu tat' ca? cac' State hien^. co'
+    std::vector<GameState*> m_States;
 };
 
 #endif // ENGINE_H_

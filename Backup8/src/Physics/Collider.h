@@ -1,6 +1,8 @@
 #ifndef COLLIDER_H
 #define COLLIDER_H
 
+#include "Camera.h"
+
 class Collider
 {
     public:
@@ -12,8 +14,23 @@ class Collider
                      h - m_Buffer.h};
         }
 
+        void Draw() //Ve~ va` cap^. nhat^. Box
+        {
+            Vector2D cam = Camera::GetInstance()->GetPosition();
+    /** GIAI THICH :
+    BOX ve~ theo hqc' cua? Entity, ma` Entity duoc. ve~ theo hqc' cua? Camera,
+    luc' dau` Box theo hqc' rieng^ cua? no' (hqc giong' TileLayer), nv cang` di,
+    Box se~ cang` di chuyen? lech^ khoi? nv neu' nhu? khong^ tinh' toan' lai. Box
+    theo  theo hqc' cua? Camera **/
+
+            //Update box
+            m_Box.x -= cam.X;
+            m_Box.y -= cam.Y;
+            SDL_RenderDrawRect(Engine::GetInstance()->GetRenderer(), &m_Box);
+        }
         inline SDL_Rect GetBox() const { return m_Box; } //Getter Box
         inline void SetBuffer(int x, int y, int w, int h) { m_Buffer = {x, y, w, h}; } //Setter Buffer
+
 
     private:
         SDL_Rect m_Box;

@@ -1,18 +1,22 @@
 # depslib dependency file v1.0
-1620531871 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.cpp
+1620558642 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.cpp
 	"Engine.h"
 	"TextureManager.h"
 	"Warrior.h"
+	"Enemy.h"
 	"Input.h"
 	"Timer.h"
 	"MapParser.h"
 	"Camera.h"
 	"Config.h"
+	"ObjectFactory.h"
 
-1620473806 c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.h
+1620536649 c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.h
+	<vector>
 	"SDL.h"
 	"SDL_image.h"
 	"GameMap.h"
+	"GameObject.h"
 
 1620529926 source:c:\users\hacki\desktop\masterpiece\themagerunner\main.cpp
 	"Engine.h"
@@ -33,7 +37,7 @@
 	<string>
 	<map>
 
-1620532468 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.cpp
+1620534553 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.cpp
 	"Warrior.h"
 	"TextureManager.h"
 	"SDL.h"
@@ -42,7 +46,7 @@
 	"CollisionHandler.h"
 	"Config.h"
 
-1620532503 c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.h
+1620532574 c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.h
 	"Character.h"
 	"SpriteAnimation.h"
 	"RigidBody.h"
@@ -67,7 +71,7 @@
 1620208396 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\vector2d.h
 	<iostream>
 
-1620532237 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\animation.h
+1620539738 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\animation.h
 
 1620484293 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\animation.cpp
 	"Animation.h"
@@ -181,15 +185,16 @@
 	"GameMap.h"
 	"Engine.h"
 
-1620471866 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\collider.h
+1620558524 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\collider.h
+	"Camera.h"
 
-1620489008 c:\users\hacki\desktop\masterpiece\themagerunner\src\config\config.h
+1620535708 c:\users\hacki\desktop\masterpiece\themagerunner\src\config\config.h
 
 1620532275 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\spriteanimation.cpp
 	"SpriteAnimation.h"
 	"TextureManager.h"
 
-1620526079 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\spriteanimation.h
+1620533508 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\spriteanimation.h
 	<string>
 	"Animation.h"
 	"SDL.h"
@@ -206,4 +211,42 @@
 	<vector>
 	"SDL.h"
 	"Animation.h"
+
+1620540081 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\seqanimation.cpp
+	<iostream>
+	"SeqAnimation.h"
+	"TextureManager.h"
+	"tinyxml.h"
+
+1620535452 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\seqanimation.h
+	<map>
+	<string>
+	<vector>
+	"SDL.h"
+	"Animation.h"
+
+1620558552 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\enemy.cpp
+	"Enemy.h"
+	"Config.h"
+	"CollisionHandler.h"
+	"ObjectFactory.h"
+
+1620534312 c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\enemy.h
+	"Character.h"
+	"RigidBody.h"
+	"SeqAnimation.h"
+	"Collider.h"
+	"SpriteAnimation.h"
+
+1620558626 c:\users\hacki\desktop\masterpiece\themagerunner\src\factory\objectfactory.h
+	<map>
+	<string>
+	<memory>
+	<functional>
+	"GameObject.h"
+
+1620557264 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\factory\objectfactory.cpp
+	"ObjectFactory.h"
+	"Warrior.h"
+	"Enemy.h"
 
