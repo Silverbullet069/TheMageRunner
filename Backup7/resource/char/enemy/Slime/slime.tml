@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animations>
+	<sequence id="slime_idle" framecount="2" speed="300" width="256" height="256">
+		<frame textureID="slime_idle1"/>
+		<frame textureID="slime_idle2"/>
+	</sequence>
+
+	<sequence id="slime_walk" framecount="4" speed="150" width="256" height="256>
+		<frame textureID="slime_walk1"/>
+		<frame textureID="slime_walk2"/>
+		<frame textureID="slime_walk3"/>
+		<frame textureID="slime_walk4"/>
+	</sequence>
+
+	<sequence id="slime_jump" frame_count="9" speed="80" width="256" height="256">
+		<frame textureID="slime_jump1"/>
+		<frame textureID="slime_jump2"/>
+		<frame textureID="slime_jump3"/>
+		<frame textureID="slime_jump4"/>
+		<frame textureID="slime_jump5"/>
+		<frame textureID="slime_jump6"/>
+		<frame textureID="slime_jump7"/>
+		<frame textureID="slime_jump8"/>
+		<frame textureID="slime_jump9"/>
+	</sequence>
+
+</animations>

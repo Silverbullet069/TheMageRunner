@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<textures>
+	<texture id="player_idle" source="resource/char/wizard/Idle.png"/>
+	<texture id="player_run" source="resource/char/wizard/Run.png"/>
+	<texture id="player_jump" source="resource/char/wizard/Jump.png"/>
+	<texture id="player_fall" source="resource/char/wizard/Fall.png"/>
+	<texture id="player_attack1" source="resource/char/wizard/Attack1.png"/>
+	<texture id="player_attack2" source="resource/char/wizard/Attack2.png"/>
+	<texture id="player_crouch" source="resource/char/wizard/Crouch.png"/>
+
+	<texture id="bkg3" source="resource/Maps/bkg3.png"/>
+	<texture id="bkg2" source="resource/Maps/bkg2.png"/>
+	<texture id="bkg1" source="resource/Maps/bkg1.png"/>
+
+	<texture id="slime_idle1" source="resource/char/enemy/Slime/Idle/Idle01.png"/>
+	<texture id="slime_idle2" source="resource/char/enemy/Slime/Idle/Idle02.png"/>
+
+	<texture id="slime_walk1" source="resource/char/enemy/Slime/Walk/walk01.png"/>
+	<texture id="slime_walk2" source="resource/char/enemy/Slime/Walk/walk02.png"/>
+	<texture id="slime_walk3" source="resource/char/enemy/Slime/Walk/walk03.png"/>
+	<texture id="slime_walk4" source="resource/char/enemy/Slime/Walk/walk04.png"/>
+
+	<texture id="slime_jump1" source="resource/char/enemy/Slime/Jump/Jump01.png"/>
+	<texture id="slime_jump2" source="resource/char/enemy/Slime/Jump/Jump02.png"/>
+	<texture id="slime_jump3" source="resource/char/enemy/Slime/Jump/Jump03.png"/>
+	<texture id="slime_jump4" source="resource/char/enemy/Slime/Jump/Jump04.png"/>
+	<texture id="slime_jump5" source="resource/char/enemy/Slime/Jump/Jump05.png"/>
+	<texture id="slime_jump6" source="resource/char/enemy/Slime/Jump/Jump06.png"/>
+	<texture id="slime_jump7" source="resource/char/enemy/Slime/Jump/Jump07.png"/>
+	<texture id="slime_jump8" source="resource/char/enemy/Slime/Jump/Jump08.png"/>
+	<texture id="slime_jump9" source="resource/char/enemy/Slime/Jump/Jump09.png"/>
+
+</textures>
+
+
+
