@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogues>
+
+	<texture id="player_inter_mono_1" fontid="dlxfont" content="Who am I ?" colorR="255" colorG="255" colorB="255" />
+	<texture id="player_inter_mono_2" fontid="dlxfont" content="What is my name ?" colorR="255" colorG="255" colorB="255"/>
+	<texture id="player_inter_mono_3" fontid="joystix_monospace" content="Where do I come from ?" colorR="255" colorG="255" colorB="255" />
+	<texture id="player_inter_mono_4" fontid="joystix_monospace" content="Why can't I remember anything?" colorR="255" colorG="255" colorB ="255"/>
+	
+</dialogues>
+
+
+

@@ -25,6 +25,26 @@ bool TextureManager::Load(std::string id, std::string file_name)
     return true;
 }
 
+bool TextureManager::LoadTxt(std::string id, TTF_Font* font, std::string content, SDL_Color color)
+{
+    SDL_Surface* loaded_surface = TTF_RenderText_Solid(font, content.c_str(), color);
+    if(loaded_surface == nullptr)
+    {
+        SDL_Log("Failed to load surface txt: %s, %s", content.c_str(), SDL_GetError());
+        return false;
+    }
+
+    SDL_Texture* new_texture = SDL_CreateTextureFromSurface(Engine::GetInstance()->GetRenderer(), loaded_surface);
+    if(new_texture == nullptr)
+    {
+        SDL_Log("Failed to create texture from surface: %s", SDL_GetError());
+        return false;
+    }
+
+    m_TextureMap[id] = new_texture;
+    return true;
+}
+
 bool TextureManager::Parse(std::string source)
 {
     TiXmlDocument xml;
@@ -32,6 +52,7 @@ bool TextureManager::Parse(std::string source)
     if(xml.Error())
     {
         std::cerr<< "Failed to load: " << source << std::endl;
+        return false;
     }
 
     TiXmlElement* root = xml.RootElement();
@@ -41,10 +62,75 @@ bool TextureManager::Parse(std::string source)
         {
             std::string id = e->Attribute("id");
             std::string src = e->Attribute("source");
+
             Load(id, src);
         }
     }
     std::cout<< "Texture parse success!" << std::endl;
+    return true;
+}
+
+bool TextureManager::ParseConvo(std::string source)
+{
+    LoadFont("resource/font.tml");
+
+    TiXmlDocument xml;
+    xml.LoadFile(source);
+    if(xml.Error())
+    {
+        std::cerr<< "Failed to load: " << source <<std::endl;
+        return false;
+    }
+
+    TiXmlElement* root = xml.RootElement();
+
+    for(TiXmlElement* e = root->FirstChildElement() ; e != nullptr ; e = e->NextSiblingElement())
+    {
+        if(e->Value() == std::string("texture"))
+        {
+            std::string id = e->Attribute("id");
+            std::string content = e->Attribute("content");
+            std::string fontid = e->Attribute("fontid");
+            int r=0, g=0, b=0;
+            e->Attribute("colorR", &r);
+            e->Attribute("colorG", &g);
+            e->Attribute("colorB", &b);
+            SDL_Color color = {r,g,b};
+
+            LoadTxt(id, m_FontMap[fontid], content, color);
+        }
+    }
+    return true;
+}
+
+bool TextureManager::LoadFont(std::string source)
+{
+    TiXmlDocument xml;
+    xml.LoadFile(source);
+    if(xml.Error())
+    {
+        std::cerr<< "Failed to load: " << source <<std::endl;
+        return false;
+    }
+
+    TiXmlElement* root = xml.RootElement();
+    for(TiXmlElement* e = root->FirstChildElement() ; e != nullptr ; e = e->NextSiblingElement())
+    {
+        if(e->Value() == std::string("data"))
+        {
+            //Lay' du~ lieu^. tu` trong element "data", bao gom^` source va` fontsize de^? tao. TTF_Font cho DataFont
+            int fontsize = 0;
+            std::string source;
+            source = e->Attribute("source");
+            e->Attribute("fontsize", &fontsize);
+
+            //Tao. TTF_Font
+            TTF_Font* font = TTF_OpenFont(source.c_str(), fontsize);
+
+            std::string fontID = e->Attribute("id");
+            m_FontMap[fontID] = font;
+        }
+    }
     return true;
 }
 

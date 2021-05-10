@@ -17,14 +17,32 @@ Engine* Engine::s_Instance = nullptr;
 
 bool Engine::Init()
 {
-    if( SDL_Init(SDL_INIT_VIDEO) < 0  ||  !(IMG_Init(IMG_INIT_PNG)&IMG_INIT_PNG) )
+    if( SDL_Init(SDL_INIT_VIDEO) < 0)
     {
-        SDL_Log("Failed to initialize SDL: %s", SDL_GetError());
+        SDL_Log("SDL could not initialize! SDL Error: %s\n", SDL_GetError() );
         return false;
     }
 
-    m_Window = SDL_CreateWindow("Engine", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED
-                                , SCREEN_WIDTH, SCREEN_HEIGHT, 0);
+    //Texture filtering chuyen? thanh` duong` thang?
+    if( !SDL_SetHint( SDL_HINT_RENDER_SCALE_QUALITY, "1" ) )
+    {
+        printf( "Warning: Linear texture filtering not enabled!" );
+    }
+
+    if(!(IMG_Init(IMG_INIT_PNG)&IMG_INIT_PNG))
+    {
+        SDL_Log("SDL_image could not initialize! SDL_image Error: %s\n", IMG_GetError() );
+        return false;
+    }
+
+    if(TTF_Init() == -1)
+    {
+        SDL_Log("SDL_ttf could not initialize! SDL_ttf Error: %s\n", TTF_GetError());
+        return false;
+    }
+
+    m_Window = SDL_CreateWindow("TheMageRunner", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
+                                SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
     if(m_Window == nullptr)
     {
         SDL_Log("Failed to create window: %s", SDL_GetError);

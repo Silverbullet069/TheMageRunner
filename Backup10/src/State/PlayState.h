@@ -28,11 +28,9 @@ class PlayState : public GameState
 
         virtual void Update();
         virtual void Render();
-
         virtual void Events();
 
         virtual inline std::string GetStateID() const {return m_PlayID;}
-        //inline TileMap* GetMap() { return m_LevelMap; }
 
     private:
         static void OpenMenu();

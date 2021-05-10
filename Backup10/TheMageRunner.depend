@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1620645890 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.cpp
+1620647450 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.cpp
 	"Engine.h"
 	"TextureManager.h"
 	"Warrior.h"
@@ -29,13 +29,14 @@
 	"SDL.h"
 	"SDL_image.h"
 
-1620631481 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.cpp
+1620660130 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.cpp
 	"TextureManager.h"
 	"Engine.h"
 	"Camera.h"
 
-1620621127 c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.h
+1620659944 c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.h
 	"SDL.h"
+	"SDL_ttf.h"
 	"tinyxml.h"
 	<string>
 	<map>
@@ -309,7 +310,7 @@
 	<vector>
 	"GameState.h"
 
-1620646038 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\state\gamestatemanager.cpp
+1620646383 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\state\gamestatemanager.cpp
 	"GameStateManager.h"
 
 1620645838 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\state\menustate.cpp
@@ -323,7 +324,7 @@
 	"SDL.h"
 	"GameState.h"
 
-1620638369 c:\users\hacki\desktop\masterpiece\themagerunner\src\state\playstate.h
+1620657453 c:\users\hacki\desktop\masterpiece\themagerunner\src\state\playstate.h
 	<iostream>
 	"TileMap.h"
 	"GameObject.h"
@@ -341,7 +342,7 @@
 	"TextureManager.h"
 	"CollisionHandler.h"
 
-1620645832 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\state\playstate.cpp
+1620660238 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\state\playstate.cpp
 	"PlayState.h"
 	"MenuState.h"
 

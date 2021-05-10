@@ -19,6 +19,7 @@ bool PlayState::IsInit()
 
     //Load textures, bao gom^` ca? player, enemy, background,...
     TextureManager::GetInstance()->Parse("resource/textures.tml");
+    TextureManager::GetInstance()->ParseConvo("resource/dialogue.tml");
 
     //Load TileLayer dung` de^? check va. cham`, lay^' 3 thong^ so^' va` set check va cham. voi' TileMatrix trong TileLayer
     TileLayer* collisionlayer = (TileLayer*)m_LevelMap->GetLayers().front();

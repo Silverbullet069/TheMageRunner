@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fonts>
+	<data id="dlxfont" source="resource/font/dlxfont.ttf" fontsize="20"/>
+	<data id="joystix_monospace" source="resource/font/joystix_monospace.ttf" fontsize="25"/>
+</fonts>
