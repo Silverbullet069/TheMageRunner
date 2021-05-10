@@ -1,0 +1,347 @@
+# depslib dependency file v1.0
+1620645890 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.cpp
+	"Engine.h"
+	"TextureManager.h"
+	"Warrior.h"
+	"Enemy.h"
+	"Input.h"
+	"Timer.h"
+	"MapParser.h"
+	"Camera.h"
+	"Config.h"
+	"ObjectFactory.h"
+	"MenuState.h"
+	"PlayState.h"
+
+1620637127 c:\users\hacki\desktop\masterpiece\themagerunner\src\core\engine.h
+	<vector>
+	"SDL.h"
+	"SDL_image.h"
+	"TileMap.h"
+	"GameObject.h"
+	"GameStateManager.h"
+
+1620529926 source:c:\users\hacki\desktop\masterpiece\themagerunner\main.cpp
+	"Engine.h"
+	"Timer.h"
+
+1620191666 c:\users\hacki\desktop\masterpiece\themagerunner\engine2.h
+	"SDL.h"
+	"SDL_image.h"
+
+1620631481 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+	"Camera.h"
+
+1620621127 c:\users\hacki\desktop\masterpiece\themagerunner\src\graphics\texturemanager.h
+	"SDL.h"
+	"tinyxml.h"
+	<string>
+	<map>
+
+1620639662 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.cpp
+	"Warrior.h"
+	"Config.h"
+	"TextureManager.h"
+	"SDL.h"
+	"Input.h"
+	"Camera.h"
+	"CollisionHandler.h"
+	"ObjectFactory.h"
+
+1620532574 c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\warrior.h
+	"Character.h"
+	"SpriteAnimation.h"
+	"RigidBody.h"
+	"Collider.h"
+	"Vector2D.h"
+
+1620268753 c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1620443257 c:\users\hacki\desktop\masterpiece\themagerunner\src\object\gameobject.h
+	"IObject.h"
+	"Transform.h"
+	"SDL.h"
+	"Point.h"
+
+1620268993 c:\users\hacki\desktop\masterpiece\themagerunner\src\object\iobject.h
+
+1620211376 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\transform.h
+	"Vector2D.h"
+
+1620208396 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\vector2d.h
+	<iostream>
+
+1620539738 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\animation.h
+
+1620484293 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1620268980 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\rigidbody.h
+	"Vector2D.h"
+
+1620635429 c:\users\hacki\desktop\masterpiece\themagerunner\src\inputs\input.h
+	"SDL.h"
+
+1620487187 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\inputs\input.cpp
+	"Input.h"
+	"Engine.h"
+
+1620267277 c:\users\hacki\desktop\masterpiece\themagerunner\src\timer\timer.h
+
+1620267252 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\timer\timer.cpp
+	"Timer.h"
+	"SDL.h"
+
+1620631458 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\map\tilelayer.cpp
+	"TileLayer.h"
+	"TextureManager.h"
+
+1620631458 c:\users\hacki\desktop\masterpiece\themagerunner\src\map\tilelayer.h
+	"Layer.h"
+	<string>
+	<vector>
+
+1620382908 c:\users\hacki\desktop\masterpiece\themagerunner\src\map\layer.h
+
+1376507762 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\vendor\tinystr.cpp
+	"tinystr.h"
+
+1376507762 c:\users\hacki\desktop\masterpiece\themagerunner\src\vendor\tinystr.h
+	<assert.h>
+	<string.h>
+
+1376507762 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\vendor\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1376507762 c:\users\hacki\desktop\masterpiece\themagerunner\src\vendor\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1376507762 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\vendor\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1376507762 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\vendor\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1620315714 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\vendor\txtreader.cpp
+	"TxtReader.h"
+
+1620315697 c:\users\hacki\desktop\masterpiece\themagerunner\src\vendor\txtreader.h
+	<string>
+	<fstream>
+
+1620629745 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\map\mapparser.cpp
+	"MapParser.h"
+
+1620629857 c:\users\hacki\desktop\masterpiece\themagerunner\src\map\mapparser.h
+	<map>
+	<string>
+	"TileMap.h"
+	"TileLayer.h"
+	"TxtReader.h"
+	"tinyxml.h"
+
+1620406042 c:\users\hacki\desktop\masterpiece\themagerunner\src\map\gamemap.h
+	<vector>
+	"Layer.h"
+
+1620610573 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\camera\camera.cpp
+	"Camera.h"
+
+1620610121 c:\users\hacki\desktop\masterpiece\themagerunner\src\camera\camera.h
+	"SDL.h"
+	"Point.h"
+	"Vector2D.h"
+	"Engine.h"
+	"Config.h"
+
+1620440011 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\point.h
+	<string>
+	<iostream>
+
+1620630676 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\collision\collisionhandler.cpp
+	"CollisionHandler.h"
+	"Engine.h"
+	"Config.h"
+
+1620630075 c:\users\hacki\desktop\masterpiece\themagerunner\src\collision\collisionhandler.h
+	"SDL.h"
+	<vector>
+	"TileLayer.h"
+	"TileMap.h"
+	"Engine.h"
+
+1620558524 c:\users\hacki\desktop\masterpiece\themagerunner\src\physics\collider.h
+	"Camera.h"
+
+1620610411 c:\users\hacki\desktop\masterpiece\themagerunner\src\config\config.h
+
+1620532275 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\spriteanimation.cpp
+	"SpriteAnimation.h"
+	"TextureManager.h"
+
+1620533508 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\spriteanimation.h
+	<string>
+	"Animation.h"
+	"SDL.h"
+
+1620532318 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\seganimation.cpp
+	<iostream>
+	"SegAnimation.h"
+	"TextureManager.h"
+	"tinyxml.h"
+
+1620527671 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\seganimation.h
+	<map>
+	<string>
+	<vector>
+	"SDL.h"
+	"Animation.h"
+
+1620629777 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\seqanimation.cpp
+	<iostream>
+	"SeqAnimation.h"
+	"TextureManager.h"
+	"tinyxml.h"
+
+1620535452 c:\users\hacki\desktop\masterpiece\themagerunner\src\animation\seqanimation.h
+	<map>
+	<string>
+	<vector>
+	"SDL.h"
+	"Animation.h"
+
+1620631212 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\enemy.cpp
+	"Enemy.h"
+	"Config.h"
+	"CollisionHandler.h"
+	"ObjectFactory.h"
+
+1620534312 c:\users\hacki\desktop\masterpiece\themagerunner\src\characters\enemy.h
+	"Character.h"
+	"RigidBody.h"
+	"SeqAnimation.h"
+	"Collider.h"
+	"SpriteAnimation.h"
+
+1620621106 c:\users\hacki\desktop\masterpiece\themagerunner\src\factory\objectfactory.h
+	<map>
+	<string>
+	<vector>
+	<memory>
+	<functional>
+	"Transform.h"
+	"GameObject.h"
+
+1620557264 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\factory\objectfactory.cpp
+	"ObjectFactory.h"
+	"Warrior.h"
+	"Enemy.h"
+
+1620638323 c:\users\hacki\desktop\masterpiece\themagerunner\src\state\gamestate.h
+	"SDL.h"
+	<string>
+
+1620630630 c:\users\hacki\desktop\masterpiece\themagerunner\src\map\tilemap.h
+	<vector>
+	"Layer.h"
+
+1620562285 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\state\menu.cpp
+	"Menu.h"
+	"Play.h"
+	"Engine.h"
+	"Input.h"
+
+1620577030 c:\users\hacki\desktop\masterpiece\themagerunner\src\state\menu.h
+	<iostream>
+	"SDL.h"
+	"GameState.h"
+
+1620631449 c:\users\hacki\desktop\masterpiece\themagerunner\src\state\play.h
+	<iostream>
+	"TileMap.h"
+	"GameObject.h"
+	"GameState.h"
+	"Enemy.h"
+	"Warrior.h"
+	"Timer.h"
+	"Menu.h"
+	"Input.h"
+	"Camera.h"
+	"MapParser.h"
+	"ImgLayer.h"
+	"TileLayer.h"
+	"ObjectFactory.h"
+	"TextureManager.h"
+	"CollisionHandler.h"
+
+1620638775 c:\users\hacki\desktop\masterpiece\themagerunner\src\map\imglayer.h
+	<iostream>
+	<string>
+	"Layer.h"
+	"SDL.h"
+	"SDL_image.h"
+
+1620639675 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\map\imglayer.cpp
+	"ImgLayer.h"
+	"TextureManager.h"
+	"Config.h"
+
+1620637336 c:\users\hacki\desktop\masterpiece\themagerunner\src\state\gamestatemanager.h
+	<vector>
+	"GameState.h"
+
+1620646038 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\state\gamestatemanager.cpp
+	"GameStateManager.h"
+
+1620645838 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\state\menustate.cpp
+	"MenuState.h"
+	"PlayState.h"
+	"Engine.h"
+	"Input.h"
+
+1620638308 c:\users\hacki\desktop\masterpiece\themagerunner\src\state\menustate.h
+	<iostream>
+	"SDL.h"
+	"GameState.h"
+
+1620638369 c:\users\hacki\desktop\masterpiece\themagerunner\src\state\playstate.h
+	<iostream>
+	"TileMap.h"
+	"GameObject.h"
+	"GameState.h"
+	"Enemy.h"
+	"Warrior.h"
+	"Timer.h"
+	"GameState.h"
+	"Input.h"
+	"Camera.h"
+	"MapParser.h"
+	"ImgLayer.h"
+	"TileLayer.h"
+	"ObjectFactory.h"
+	"TextureManager.h"
+	"CollisionHandler.h"
+
+1620645832 source:c:\users\hacki\desktop\masterpiece\themagerunner\src\state\playstate.cpp
+	"PlayState.h"
+	"MenuState.h"
+
