@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="TextObject.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="484" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="PlayerPower.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="463" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="BaseObject.h" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="169" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="MainObject.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="470" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="FiFanZero.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4259" topLine="99" />
+		</Cursor>
+	</File>
+	<File name="ExplosionObject.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="174" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ExplosionObject.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="237" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Common_Function.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1064" topLine="69" />
+		</Cursor>
+	</File>
+	<File name="AmoObject.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="44" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ThreatObject.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="203" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="TextObject.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="-3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="73" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="PlayerPower.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="535" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="AmoObject.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="211" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="BaseObject.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="919" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="Common_Function.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10165" topLine="302" />
+		</Cursor>
+	</File>
+	<File name="MainObject.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3176" topLine="88" />
+		</Cursor>
+	</File>
+	<File name="ThreatObject.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2897" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

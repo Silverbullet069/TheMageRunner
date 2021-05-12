@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1618111604 source:d:\fifanzero\amoobject.cpp
+	"AmoObject.h"
+
+1618111639 d:\fifanzero\amoobject.h
+	"BaseObject.h"
+
+1618461470 d:\fifanzero\baseobject.h
+	"Common_Function.h"
+
+1618485865 d:\fifanzero\common_function.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<fstream>
+	<windows.h>
+
+1618461470 source:d:\fifanzero\baseobject.cpp
+	"BaseObject.h"
+
+1618461470 source:d:\fifanzero\mainobject.cpp
+	"MainObject.h"
+
+1618461470 d:\fifanzero\mainobject.h
+	"Common_Function.h"
+	"BaseObject.h"
+	"AmoObject.h"
+	<vector>
+
+1618461470 source:d:\fifanzero\common_function.cpp
+	"Common_Function.h"
+	"BaseObject.h"
+	"TextObject.h"
+
+1618460940 source:d:\fifanzero\fifanzero.cpp
+	"Common_Function.h"
+	"MainObject.h"
+	"ThreatObject.h"
+	"ExplosionObject.h"
+	"PlayerPower.h"
+	"TextObject.h"
+
+1617937147 d:\fifanzero\threadobject.h
+	"Common_Function.h"
+	"BaseObject.h"
+	"AmoObject.h"
+	<vector>
+
+1617936818 source:d:\fifanzero\threadobject.cpp
+	"ThreadObject.h"
+
+1618461470 source:d:\fifanzero\threatobject.cpp
+	"ThreatObject.h"
+
+1618461470 d:\fifanzero\threatobject.h
+	"Common_Function.h"
+	"BaseObject.h"
+	"AmoObject.h"
+	<vector>
+
+1618461470 source:d:\fifanzero\explosionobject.cpp
+	"ExplosionObject.h"
+
+1618461470 d:\fifanzero\explosionobject.h
+	"Common_Function.h"
+	"BaseObject.h"
+
+1618461470 d:\fifanzero\playerpower.h
+	"BaseObject.h"
+	<vector>
+
+1618461470 source:d:\fifanzero\playerpower.cpp
+	"PlayerPower.h"
+
+1618461470 source:d:\fifanzero\textobject.cpp
+	"TextObject.h"
+
+1618461470 d:\fifanzero\textobject.h
+	"BaseObject.h"
+	"SDL_ttf.h"
+	<string>
+

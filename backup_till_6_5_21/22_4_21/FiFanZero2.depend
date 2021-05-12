@@ -1,0 +1,253 @@
+# depslib dependency file v1.0
+1618968379 source:d:\fifanzero2\baseobject.cpp
+	"BaseObject.h"
+
+1618994637 d:\fifanzero2\baseobject.h
+	"CommonFunction.h"
+
+1618998579 d:\fifanzero2\commonfunction.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
+	<fstream>
+	<windows.h>
+
+1618546723 source:d:\fifanzero2\gamemap.cpp
+	"GameMap.h"
+
+1618543048 d:\fifanzero2\gamemap.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1618967868 source:d:\fifanzero2\commonfunction.cpp
+	<vector>
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1619004366 source:d:\fifanzero2\main.cpp
+	"CommonFunction.h"
+	"BaseObject.h"
+	"GameMap.h"
+	"BaseObject.h"
+	"MainObject.h"
+	"ImpTimer.h"
+	"ThreatObject.h"
+	"ExpObject.h"
+
+1619001277 d:\fifanzero2\mainobject.h
+	<vector>
+	"CommonFunction.h"
+	"BaseObject.h"
+	"BulletObject.h"
+
+1619001278 source:d:\fifanzero2\mainobject.cpp
+	"MainObject.h"
+
+1618549285 source:d:\fifanzero2\imptimer.cpp
+	"ImpTimer.h"
+	"CommonFunction.h"
+
+1618549220 d:\fifanzero2\imptimer.h
+	"CommonFunction.h"
+
+1618995974 source:d:\fifanzero2\bulletobject.cpp
+	"BulletObject.h"
+
+1618995763 d:\fifanzero2\bulletobject.h
+	"BaseObject.h"
+
+1619001703 source:d:\fifanzero2\threatobject.cpp
+	"ThreatObject.h"
+
+1619001289 d:\fifanzero2\threatobject.h
+	<vector>
+	"BaseObject.h"
+	"BulletObject.h"
+
+1619004326 source:d:\fifanzero2\expobject.cpp
+	"ExpObject.h"
+
+1619004307 d:\fifanzero2\expobject.h
+	"BaseObject.h"
+
+1619691516 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\baseobject.cpp
+	"BaseObject.h"
+
+1619691520 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\baseobject.h
+	"CommonFunction.h"
+
+1619712582 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\commonfunction.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<fstream>
+	<vector>
+	<windows.h>
+
+1619712432 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\commonfunction.cpp
+	<vector>
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1618549285 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\imptimer.cpp
+	"ImpTimer.h"
+	"CommonFunction.h"
+
+1618549220 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\imptimer.h
+	"CommonFunction.h"
+
+1619697270 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\mainobject.cpp
+	"MainObject.h"
+
+1619690882 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\mainobject.h
+	"CommonFunction.h"
+	"BaseObject.h"
+	"BulletObject.h"
+	"ExpObject.h"
+
+1619624470 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\bulletobject.h
+	"BaseObject.h"
+
+1619691652 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\gamemap.cpp
+	"GameMap.h"
+
+1619571467 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\gamemap.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1619712582 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\main.cpp
+	"CommonFunction.h"
+	"BaseObject.h"
+	"GameMap.h"
+	"BaseObject.h"
+	"MainObject.h"
+	"ImpTimer.h"
+	"ThreatObject.h"
+	"ExpObject.h"
+	"TextObject.h"
+	"PlayerPower.h"
+	"Geometric.h"
+	"BossObject.h"
+
+1619586362 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_29_4_21\baseobject.cpp
+	"BaseObject.h"
+
+1618994637 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_29_4_21\baseobject.h
+	"CommonFunction.h"
+
+1619605025 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_29_4_21\commonfunction.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
+	<fstream>
+	<windows.h>
+
+1619604712 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_29_4_21\commonfunction.cpp
+	<vector>
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1619604435 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_29_4_21\gamemap.cpp
+	"GameMap.h"
+
+1619571467 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_29_4_21\gamemap.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1618549285 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_29_4_21\imptimer.cpp
+	"ImpTimer.h"
+	"CommonFunction.h"
+
+1618549220 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_29_4_21\imptimer.h
+	"CommonFunction.h"
+
+1619605039 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_29_4_21\main.cpp
+	"CommonFunction.h"
+	"BaseObject.h"
+	"GameMap.h"
+	"ImpTimer.h"
+
+1619586362 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_23_4_21\baseobject.cpp
+	"BaseObject.h"
+
+1618994637 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_23_4_21\baseobject.h
+	"CommonFunction.h"
+
+1619605025 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_23_4_21\commonfunction.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
+	<fstream>
+	<windows.h>
+
+1619604712 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_23_4_21\commonfunction.cpp
+	<vector>
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1619604435 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_23_4_21\gamemap.cpp
+	"GameMap.h"
+
+1619571467 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_23_4_21\gamemap.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1618549285 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_23_4_21\imptimer.cpp
+	"ImpTimer.h"
+	"CommonFunction.h"
+
+1618549220 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_23_4_21\imptimer.h
+	"CommonFunction.h"
+
+1619605039 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_23_4_21\main.cpp
+	"CommonFunction.h"
+	"BaseObject.h"
+	"GameMap.h"
+	"ImpTimer.h"
+
+1619691520 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\bossobject.cpp
+	"BossObject.h"
+
+1619624440 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\bossobject.h
+	"BaseObject.h"
+	"BulletObject.h"
+
+1619691569 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\bulletobject.cpp
+	"BulletObject.h"
+
+1619691652 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\expobject.cpp
+	"ExpObject.h"
+
+1619624588 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\expobject.h
+	"BaseObject.h"
+
+1619624292 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\geometric.cpp
+	"Geometric.h"
+
+1619624492 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\geometric.h
+	"CommonFunction.h"
+
+1619624276 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\textobject.cpp
+	"TextObject.h"
+
+1619624529 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\textobject.h
+	"CommonFunction.h"
+
+1619709515 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\threatobject.cpp
+	"ThreatObject.h"
+
+1619697520 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\threatobject.h
+	"BaseObject.h"
+	"BulletObject.h"
+
+1619624662 c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\playerpower.h
+	"BaseObject.h"
+
+1619691829 source:c:\users\hacki\downloads\testtiled\runtile\fifanzero2_22_4_21\playerpower.cpp
+	"PlayerPower.h"
+

@@ -1,0 +1,205 @@
+# depslib dependency file v1.0
+1618968379 source:d:\fifanzero2\baseobject.cpp
+	"BaseObject.h"
+
+1619272099 d:\fifanzero2\baseobject.h
+	"CommonFunction.h"
+
+1619419999 d:\fifanzero2\commonfunction.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<fstream>
+	<windows.h>
+	<vector>
+
+1618546723 source:d:\fifanzero2\gamemap.cpp
+	"GameMap.h"
+
+1618543048 d:\fifanzero2\gamemap.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1619272747 source:d:\fifanzero2\commonfunction.cpp
+	<vector>
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1619416423 source:d:\fifanzero2\main.cpp
+	"CommonFunction.h"
+	"BaseObject.h"
+	"GameMap.h"
+	"BaseObject.h"
+	"MainObject.h"
+	"ImpTimer.h"
+	"ThreatObject.h"
+	"ExpObject.h"
+	"TextObject.h"
+	"PlayerPower.h"
+	"Geometric.h"
+	"BossObject.h"
+
+1619274856 d:\fifanzero2\mainobject.h
+	"CommonFunction.h"
+	"BaseObject.h"
+	"BulletObject.h"
+	"ExpObject.h"
+
+1619315086 source:d:\fifanzero2\mainobject.cpp
+	"MainObject.h"
+
+1618549285 source:d:\fifanzero2\imptimer.cpp
+	"ImpTimer.h"
+	"CommonFunction.h"
+
+1618549220 d:\fifanzero2\imptimer.h
+	"CommonFunction.h"
+
+1619412017 source:d:\fifanzero2\bulletobject.cpp
+	"BulletObject.h"
+
+1619420778 d:\fifanzero2\bulletobject.h
+	"BaseObject.h"
+
+1619421669 source:d:\fifanzero2\threatobject.cpp
+	"ThreatObject.h"
+
+1619422050 d:\fifanzero2\threatobject.h
+	"BaseObject.h"
+	"BulletObject.h"
+
+1619099565 source:d:\fifanzero2\expobject.cpp
+	"ExpObject.h"
+
+1619066263 d:\fifanzero2\expobject.h
+	"BaseObject.h"
+
+1619104395 source:d:\fifanzero2\textobject.cpp
+	"TextObject.h"
+
+1619104299 d:\fifanzero2\textobject.h
+	"CommonFunction.h"
+
+1619141475 d:\fifanzero2\playerpower.h
+	"BaseObject.h"
+
+1619141634 source:d:\fifanzero2\playerpower.cpp
+	"PlayerPower.h"
+
+1619144518 source:d:\fifanzero2\geometric.cpp
+	"Geometric.h"
+
+1619144963 d:\fifanzero2\geometric.h
+	"CommonFunction.h"
+
+1619149641 d:\fifanzero2\bossobject.h
+	"BaseObject.h"
+	"BulletObject.h"
+
+1619149784 source:d:\fifanzero2\bossobject.cpp
+	"BossObject.h"
+
+1618968379 source:d:\backup\fifanzero2_28_4_21\baseobject.cpp
+	"BaseObject.h"
+
+1619272099 d:\backup\fifanzero2_28_4_21\baseobject.h
+	"CommonFunction.h"
+
+1619611174 d:\backup\fifanzero2_28_4_21\commonfunction.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<fstream>
+	<windows.h>
+	<vector>
+
+1619149784 source:d:\backup\fifanzero2_28_4_21\bossobject.cpp
+	"BossObject.h"
+
+1619149641 d:\backup\fifanzero2_28_4_21\bossobject.h
+	"BaseObject.h"
+	"BulletObject.h"
+
+1619420778 d:\backup\fifanzero2_28_4_21\bulletobject.h
+	"BaseObject.h"
+
+1619412017 source:d:\backup\fifanzero2_28_4_21\bulletobject.cpp
+	"BulletObject.h"
+
+1619272747 source:d:\backup\fifanzero2_28_4_21\commonfunction.cpp
+	<vector>
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1619099565 source:d:\backup\fifanzero2_28_4_21\expobject.cpp
+	"ExpObject.h"
+
+1619066263 d:\backup\fifanzero2_28_4_21\expobject.h
+	"BaseObject.h"
+
+1618546723 source:d:\backup\fifanzero2_28_4_21\gamemap.cpp
+	"GameMap.h"
+
+1618543048 d:\backup\fifanzero2_28_4_21\gamemap.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1619144518 source:d:\backup\fifanzero2_28_4_21\geometric.cpp
+	"Geometric.h"
+
+1619144963 d:\backup\fifanzero2_28_4_21\geometric.h
+	"CommonFunction.h"
+
+1618549285 source:d:\backup\fifanzero2_28_4_21\imptimer.cpp
+	"ImpTimer.h"
+	"CommonFunction.h"
+
+1618549220 d:\backup\fifanzero2_28_4_21\imptimer.h
+	"CommonFunction.h"
+
+1619416423 source:d:\backup\fifanzero2_28_4_21\main.cpp
+	"CommonFunction.h"
+	"BaseObject.h"
+	"GameMap.h"
+	"BaseObject.h"
+	"MainObject.h"
+	"ImpTimer.h"
+	"ThreatObject.h"
+	"ExpObject.h"
+	"TextObject.h"
+	"PlayerPower.h"
+	"Geometric.h"
+	"BossObject.h"
+
+1619274856 d:\backup\fifanzero2_28_4_21\mainobject.h
+	"CommonFunction.h"
+	"BaseObject.h"
+	"BulletObject.h"
+	"ExpObject.h"
+
+1619422050 d:\backup\fifanzero2_28_4_21\threatobject.h
+	"BaseObject.h"
+	"BulletObject.h"
+
+1619104299 d:\backup\fifanzero2_28_4_21\textobject.h
+	"CommonFunction.h"
+
+1619141475 d:\backup\fifanzero2_28_4_21\playerpower.h
+	"BaseObject.h"
+
+1619315086 source:d:\backup\fifanzero2_28_4_21\mainobject.cpp
+	"MainObject.h"
+
+1619141634 source:d:\backup\fifanzero2_28_4_21\playerpower.cpp
+	"PlayerPower.h"
+
+1619104395 source:d:\backup\fifanzero2_28_4_21\textobject.cpp
+	"TextObject.h"
+
+1619422059 source:d:\backup\fifanzero2_28_4_21\threatobject.cpp
+	"ThreatObject.h"
+

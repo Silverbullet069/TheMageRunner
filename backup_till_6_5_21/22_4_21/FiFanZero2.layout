@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="ExpObject.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="991" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1035" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="PlayerPower.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1406" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="MainObject.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="298" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="BaseObject.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="CommonFunction.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-8" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6720" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="PlayerPower.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="758" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="BulletObject.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6353" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ThreatObject.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4713" topLine="159" />
+		</Cursor>
+	</File>
+	<File name="TextObject.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2295" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="MainObject.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="659" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="Geometric.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="848" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="BossObject.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2031" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="GameMap.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ThreatObject.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5086" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="BossObject.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9905" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ImpTimer.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="BaseObject.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2063" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="CommonFunction.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="625" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="GameMap.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4170" topLine="81" />
+		</Cursor>
+	</File>
+	<File name="Geometric.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="998" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="TextObject.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1219" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ImpTimer.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ExpObject.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1757" topLine="26" />
+		</Cursor>
+	</File>
+	<File name="BulletObject.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2186" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
