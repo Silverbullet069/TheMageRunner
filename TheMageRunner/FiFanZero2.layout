@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="TypingScene.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3942" topLine="119" />
+		</Cursor>
+	</File>
+	<File name="CommonFunction.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="-7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2217" topLine="116" />
+		</Cursor>
+	</File>
+	<File name="ThreatObject.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10527" topLine="342" />
+		</Cursor>
+	</File>
+	<File name="BossObject.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5165" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="PlayerPower.cpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="565" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="FairyObject.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1125" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="PlayerPower.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="758" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ExpObject.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="991" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="BulletObject.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1615" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="TextObject.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4403" topLine="137" />
+		</Cursor>
+	</File>
+	<File name="GameMap.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="788" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="ElementaryFunctions.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="996" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11390" topLine="354" />
+		</Cursor>
+	</File>
+	<File name="TypingScene.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="332" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="MainObject.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3695" topLine="134" />
+		</Cursor>
+	</File>
+	<File name="ThreatObject.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1971" topLine="72" />
+		</Cursor>
+	</File>
+	<File name="BulletObject.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="482" topLine="59" />
+		</Cursor>
+	</File>
+	<File name="ScreenEffect.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="867" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="BaseObject.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1345" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="MainObject.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="20448" topLine="680" />
+		</Cursor>
+	</File>
+	<File name="ExpObject.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="811" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="TextObject.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1110" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ImpTimer.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ImpTimer.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="GameMap.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3122" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="ElementaryFunctions.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="460" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="CommonFunction.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3243" topLine="126" />
+		</Cursor>
+	</File>
+	<File name="FairyObject.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11659" topLine="417" />
+		</Cursor>
+	</File>
+	<File name="BossObject.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="882" topLine="10" />
+		</Cursor>
+	</File>
+	<File name="ScreenEffect.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="-6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3126" topLine="77" />
+		</Cursor>
+	</File>
+	<File name="BaseObject.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="569" topLine="22" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

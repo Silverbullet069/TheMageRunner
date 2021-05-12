@@ -1,0 +1,138 @@
+# depslib dependency file v1.0
+1620694741 source:d:\repogame\themagerunner\themagerunner\baseobject.cpp
+	"BaseObject.h"
+
+1620694742 d:\repogame\themagerunner\themagerunner\baseobject.h
+	"CommonFunction.h"
+
+1620759972 d:\repogame\themagerunner\themagerunner\commonfunction.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<stdio.h>
+	<string>
+	<fstream>
+	<vector>
+	<windows.h>
+	<math.h>
+
+1620125471 source:d:\repogame\themagerunner\themagerunner\bossobject.cpp
+	"BossObject.h"
+
+1619624440 d:\repogame\themagerunner\themagerunner\bossobject.h
+	"BaseObject.h"
+	"BulletObject.h"
+
+1620751061 d:\repogame\themagerunner\themagerunner\bulletobject.h
+	"CommonFunction.h"
+	"BaseObject.h"
+	"GameMap.h"
+
+1620125734 d:\repogame\themagerunner\themagerunner\gamemap.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1620751524 source:d:\repogame\themagerunner\themagerunner\bulletobject.cpp
+	"BulletObject.h"
+	"MainObject.h"
+
+1620748119 d:\repogame\themagerunner\themagerunner\mainobject.h
+	"CommonFunction.h"
+	"BaseObject.h"
+	"BulletObject.h"
+	"ExpObject.h"
+	"PlayerPower.h"
+
+1619624588 d:\repogame\themagerunner\themagerunner\expobject.h
+	"BaseObject.h"
+
+1620749878 d:\repogame\themagerunner\themagerunner\playerpower.h
+	"BaseObject.h"
+	"TextObject.h"
+	"ScreenEffect.h"
+
+1620147457 d:\repogame\themagerunner\themagerunner\textobject.h
+	"CommonFunction.h"
+
+1620140094 d:\repogame\themagerunner\themagerunner\screeneffect.h
+	"CommonFunction.h"
+
+1620760782 source:d:\repogame\themagerunner\themagerunner\commonfunction.cpp
+	"CommonFunction.h"
+	"BaseObject.h"
+	"TextObject.h"
+	"ScreenEffect.h"
+
+1620093780 source:d:\repogame\themagerunner\themagerunner\elementaryfunctions.cpp
+	"ElementaryFunctions.h"
+
+1620058859 d:\repogame\themagerunner\themagerunner\elementaryfunctions.h
+	"CommonFunction.h"
+
+1619691652 source:d:\repogame\themagerunner\themagerunner\expobject.cpp
+	"ExpObject.h"
+
+1620745568 source:d:\repogame\themagerunner\themagerunner\fairyobject.cpp
+	"FairyObject.h"
+
+1620732249 d:\repogame\themagerunner\themagerunner\fairyobject.h
+	"CommonFunction.h"
+	"TextObject.h"
+	"ScreenEffect.h"
+	"ElementaryFunctions.h"
+
+1620705309 source:d:\repogame\themagerunner\themagerunner\gamemap.cpp
+	"GameMap.h"
+
+1618549285 source:d:\repogame\themagerunner\themagerunner\imptimer.cpp
+	"ImpTimer.h"
+	"CommonFunction.h"
+
+1618549220 d:\repogame\themagerunner\themagerunner\imptimer.h
+	"CommonFunction.h"
+
+1620779307 source:d:\repogame\themagerunner\themagerunner\main.cpp
+	"CommonFunction.h"
+	"BaseObject.h"
+	"GameMap.h"
+	"BaseObject.h"
+	"MainObject.h"
+	"ImpTimer.h"
+	"ThreatObject.h"
+	"ExpObject.h"
+	"TextObject.h"
+	"PlayerPower.h"
+	"ScreenEffect.h"
+	"BossObject.h"
+	"TypingScene.h"
+	"FairyObject.h"
+	"ElementaryFunctions.h"
+
+1620714397 d:\repogame\themagerunner\themagerunner\threatobject.h
+	"BaseObject.h"
+	"BulletObject.h"
+
+1620106236 d:\repogame\themagerunner\themagerunner\typingscene.h
+	"CommonFunction.h"
+	"TextObject.h"
+	"ScreenEffect.h"
+
+1620761523 source:d:\repogame\themagerunner\themagerunner\mainobject.cpp
+	"MainObject.h"
+
+1620751388 source:d:\repogame\themagerunner\themagerunner\playerpower.cpp
+	"PlayerPower.h"
+
+1620731901 source:d:\repogame\themagerunner\themagerunner\screeneffect.cpp
+	"ScreenEffect.h"
+
+1620737905 source:d:\repogame\themagerunner\themagerunner\textobject.cpp
+	"TextObject.h"
+	<iostream>
+
+1620714062 source:d:\repogame\themagerunner\themagerunner\threatobject.cpp
+	"ThreatObject.h"
+
+1620136348 source:d:\repogame\themagerunner\themagerunner\typingscene.cpp
+	"TypingScene.h"
+
